@@ -2,7 +2,7 @@ provider "aws" {
   region = var.region
   profile = var.aws_profile
 
-  default_tags = {
+  default_tags {
     tags = {
       Terraform   = var.terraform
       Environment = var.environment
@@ -23,9 +23,8 @@ resource "aws_security_group" "allow_ssh" {
 }
 
 resource "aws_instance" "ec2" {
-  ami           = "ami-0a67d09dc01633721" # This is an example Amazon Linux 2 AMI ID; replace with the appropriate AMI ID for your region
+  ami           = "ami-03221589fd7c8f183" # This is an example Amazon Linux 2 AMI ID; replace with the appropriate AMI ID for your region
   instance_type = var.instance_type
 
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
 }
-
