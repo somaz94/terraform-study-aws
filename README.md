@@ -2,6 +2,8 @@
 This is terraform-study repostiory
 
 
+
+
 ## Basic Description
 
 - main.tf
@@ -28,6 +30,7 @@ The main.tf file is the default configuration file containing Terraform resource
 - version.tf
 
 	- The version.tf file is used to specify the version of Terraform and the provider plug-in required.
+
 
 
 
