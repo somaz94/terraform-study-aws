@@ -34,10 +34,12 @@ The main.tf file is the default configuration file containing Terraform resource
 ### 1.How to Use Variables Terraform
 
 
+```bash
 use-variable
 ├── main.tf
 ├── output.tf
 ├── terraform.tfvars
 └── variables.tf
+```
 
 
