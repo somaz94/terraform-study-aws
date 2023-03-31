@@ -45,4 +45,6 @@ use-variable
 └── variables.tf
 ```
 
+#### Blog URL
+<https://somaz.tistory.com/185>
 
