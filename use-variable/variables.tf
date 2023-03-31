@@ -30,3 +30,8 @@ variable "aws_profile" {
   type        = string
   default     = "somaz" # Optional: Provide a default profile name if desired
 }
+
+variable "key_pair_name" {
+  description = "The name of the key pair to use for the EC2 instance"
+  type        = string
+}
