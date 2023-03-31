@@ -24,3 +24,9 @@ variable "my_public_ip" {
   description = "Your public IP address in CIDR notation (e.g., x.x.x.x/32)"
   type        = string
 }
+
+variable "aws_profile" {
+  description = "The AWS CLI profile to use for authentication"
+  type        = string
+  default     = "somaz" # Optional: Provide a default profile name if desired
+}
