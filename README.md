@@ -42,8 +42,23 @@ use-variable
 ├── main.tf
 ├── output.tf
 ├── terraform.tfvars
-└── variables.tf
+├── variables.tf
+└── version.tf
 ```
+
+
+## 2.How to Use Variables Terraform with data block
+
+```bash
+use-variable
+├── main.tf
+├── output.tf
+├── terraform.tfvars
+├── variables.tf
+└── version.tf
+```
+
+
 
 #### Blog URL
 <https://somaz.tistory.com/185>
